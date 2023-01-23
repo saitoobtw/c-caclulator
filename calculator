@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+int a,b,c;
+printf("Введите два числа: ");
+scanf("%d %d",&a,&b);
+printf("Выберите действие:\n 1.Сложение\n 2.Вычитание\n");
+scanf("%d", &c);
+switch(c)
+{
+    case 1:
+    printf("Сумма %d и %d равна: %d ",a,b,a+b);
+    break;
+    case 2:
+    printf("Вычитание %d и %d равна: %d ",a,b,a-b);
+    break;
+}
+
+    
+}
